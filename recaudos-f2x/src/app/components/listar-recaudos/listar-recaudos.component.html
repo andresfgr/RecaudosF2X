@@ -1,0 +1,19 @@
+<div *ngIf="iscarga == false" style="width: 100%; text-align: center;margin-top: 2%">
+  <h1>Por favor espere miestras se consulta la información.</h1>
+</div>
+
+<div *ngIf="iscarga == true" style="width: 100%; text-align: center;margin-top: 2%;">
+  <h1>Listado de recaudos.</h1>
+</div>
+<!-- <button type="button" (click)="exportarExcelRecaudos()">Exporta Recaudos</button> -->
+<div style="padding-top: 2rem; padding-left: 20rem;" *ngIf="iscarga == true">
+  <ag-grid-angular
+    style="width: 80%; height: 80vh;"
+    class="ag-theme-alpine"
+    [rowData]="rowData"
+    [columnDefs]="columnDefs"
+    [pagination]="true"
+    >
+  </ag-grid-angular>
+
+</div>

@@ -1,0 +1,12 @@
+C:\Users\ANDRES\Downloads\VehiculosF2X.WebApi\VehiculosF2X.Infraestrcutura\bin\Debug\netcoreapp3.1\RecaudoVehiculosF2X.Infraestrcutura.deps.json
+C:\Users\ANDRES\Downloads\VehiculosF2X.WebApi\VehiculosF2X.Infraestrcutura\bin\Debug\netcoreapp3.1\RecaudoVehiculosF2X.Infraestrcutura.dll
+C:\Users\ANDRES\Downloads\VehiculosF2X.WebApi\VehiculosF2X.Infraestrcutura\bin\Debug\netcoreapp3.1\RecaudoVehiculosF2X.Infraestrcutura.pdb
+C:\Users\ANDRES\Downloads\VehiculosF2X.WebApi\VehiculosF2X.Infraestrcutura\bin\Debug\netcoreapp3.1\RecaudoVehiculosF2X.Dominio.dll
+C:\Users\ANDRES\Downloads\VehiculosF2X.WebApi\VehiculosF2X.Infraestrcutura\bin\Debug\netcoreapp3.1\RecaudoVehiculosF2X.Dominio.pdb
+C:\Users\ANDRES\Downloads\VehiculosF2X.WebApi\VehiculosF2X.Infraestrcutura\obj\Debug\netcoreapp3.1\RecaudoVehiculosF2X.Infraestrcutura.csproj.AssemblyReference.cache
+C:\Users\ANDRES\Downloads\VehiculosF2X.WebApi\VehiculosF2X.Infraestrcutura\obj\Debug\netcoreapp3.1\RecaudoVehiculosF2X.Infraestrcutura.AssemblyInfoInputs.cache
+C:\Users\ANDRES\Downloads\VehiculosF2X.WebApi\VehiculosF2X.Infraestrcutura\obj\Debug\netcoreapp3.1\RecaudoVehiculosF2X.Infraestrcutura.AssemblyInfo.cs
+C:\Users\ANDRES\Downloads\VehiculosF2X.WebApi\VehiculosF2X.Infraestrcutura\obj\Debug\netcoreapp3.1\RecaudoVehiculosF2X.Infraestrcutura.csproj.CoreCompileInputs.cache
+C:\Users\ANDRES\Downloads\VehiculosF2X.WebApi\VehiculosF2X.Infraestrcutura\obj\Debug\netcoreapp3.1\RecaudoVehiculosF2X.Infraestrcutura.csproj.CopyComplete
+C:\Users\ANDRES\Downloads\VehiculosF2X.WebApi\VehiculosF2X.Infraestrcutura\obj\Debug\netcoreapp3.1\RecaudoVehiculosF2X.Infraestrcutura.dll
+C:\Users\ANDRES\Downloads\VehiculosF2X.WebApi\VehiculosF2X.Infraestrcutura\obj\Debug\netcoreapp3.1\RecaudoVehiculosF2X.Infraestrcutura.pdb

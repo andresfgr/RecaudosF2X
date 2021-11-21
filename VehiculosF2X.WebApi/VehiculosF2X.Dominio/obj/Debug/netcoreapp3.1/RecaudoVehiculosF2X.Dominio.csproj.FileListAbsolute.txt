@@ -1,0 +1,8 @@
+C:\Users\ANDRES\Downloads\VehiculosF2X.WebApi\VehiculosF2X.Dominio\bin\Debug\netcoreapp3.1\RecaudoVehiculosF2X.Dominio.deps.json
+C:\Users\ANDRES\Downloads\VehiculosF2X.WebApi\VehiculosF2X.Dominio\bin\Debug\netcoreapp3.1\RecaudoVehiculosF2X.Dominio.dll
+C:\Users\ANDRES\Downloads\VehiculosF2X.WebApi\VehiculosF2X.Dominio\bin\Debug\netcoreapp3.1\RecaudoVehiculosF2X.Dominio.pdb
+C:\Users\ANDRES\Downloads\VehiculosF2X.WebApi\VehiculosF2X.Dominio\obj\Debug\netcoreapp3.1\RecaudoVehiculosF2X.Dominio.AssemblyInfoInputs.cache
+C:\Users\ANDRES\Downloads\VehiculosF2X.WebApi\VehiculosF2X.Dominio\obj\Debug\netcoreapp3.1\RecaudoVehiculosF2X.Dominio.AssemblyInfo.cs
+C:\Users\ANDRES\Downloads\VehiculosF2X.WebApi\VehiculosF2X.Dominio\obj\Debug\netcoreapp3.1\RecaudoVehiculosF2X.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\ANDRES\Downloads\VehiculosF2X.WebApi\VehiculosF2X.Dominio\obj\Debug\netcoreapp3.1\RecaudoVehiculosF2X.Dominio.dll
+C:\Users\ANDRES\Downloads\VehiculosF2X.WebApi\VehiculosF2X.Dominio\obj\Debug\netcoreapp3.1\RecaudoVehiculosF2X.Dominio.pdb

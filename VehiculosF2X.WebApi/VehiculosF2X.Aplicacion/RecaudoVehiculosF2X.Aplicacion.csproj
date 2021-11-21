@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RestSharp" Version="106.13.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VehiculosF2X.Dominio\RecaudoVehiculosF2X.Dominio.csproj" />
+    <ProjectReference Include="..\VehiculosF2X.Infraestrcutura\RecaudoVehiculosF2X.Infraestrcutura.csproj" />
+  </ItemGroup>
+
+</Project>
