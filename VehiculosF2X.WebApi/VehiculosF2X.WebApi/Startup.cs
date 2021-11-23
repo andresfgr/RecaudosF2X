@@ -43,7 +43,7 @@ namespace VehiculosF2X.WebApi
                 {
                     Version = "Versión 1.0",
                     Title = "Recaudo Vihiculos FX2",
-                    Description = "En esta Api se encuentra desplegado el sitema de consulta de recaudo de la empresa F2X"
+                    Description = "La api fue desarrollada en .NET Core 3.1, se hizo uso de Sql Server como gestor de base de datos para almacenar los datos obtenidos a través de la api http://190.145.81.67:5200/documentation/. \n \n Para más información: https://github.com/andresfgr/RecaudosF2X"
                 });
             });
             services.AddTransient<IRecaudoVehiculosServices, RecaudoVehiculoService>();

@@ -6,6 +6,7 @@ namespace VehiculosF2X.Aplicacion.Interfaces
     public interface IRecaudoVehiculosServices
     {
         public List<RecaudosDto> GetAll();
-        public List<RecaudosDto> ExpotarRecaudos();
+
+        public ExportarRecaudosDto ExpotarRecaudos();
     }
 }

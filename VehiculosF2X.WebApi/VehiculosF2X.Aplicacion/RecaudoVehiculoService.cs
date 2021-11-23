@@ -52,9 +52,16 @@ namespace VehiculosF2X.Aplicacion
                 .OrderBy(x => x.Estacion).ToList();
         }
 
-        public List<RecaudosDto> ExpotarRecaudos()
+        public ExportarRecaudosDto ExpotarRecaudos()
         {
-            var recaudosList = _DbContextVehiculo.Recaudos.GroupBy(t => new { t.Fecha, t.Estacion })
+            ExportarRecaudosDto exportarRecaudosDto = new ExportarRecaudosDto();
+            List<RecaudosDto> total = new List<RecaudosDto>();
+            List<string> estaciones = new List<string>();
+            List<string> fechas = new List<string>();
+
+            var recaudos = _DbContextVehiculo.Recaudos.ToList();
+
+            var recaudosList = recaudos.GroupBy(t => new { t.Fecha, t.Estacion })
                 .Select(s => new RecaudosDto
                 {
                     Fecha = s.Key.Fecha.ToString("dd/MM/yyyy"),
@@ -63,8 +70,23 @@ namespace VehiculosF2X.Aplicacion
                     ValorTabulado = s.Sum(x => x.ValorTabulado),
                 }).ToList();
 
-            return recaudosList.OrderBy(x => x.Fecha)
+            exportarRecaudosDto.Recaudos = recaudosList.OrderBy(x => x.Fecha)
                 .OrderBy(x => x.Estacion).ToList();
+
+            foreach (var item in recaudos.GroupBy(t => new { t.Estacion }).Select(s => new RecaudosDto { Estacion = s.Key.Estacion, }).ToList())
+            {
+                estaciones.Add(item.Estacion);
+            }
+
+            var fechasDTO = recaudos.GroupBy(t => new { t.Fecha }).Select(s => new Recaudos { Fecha = s.Key.Fecha, }).ToList();
+            foreach (var item in fechasDTO.OrderBy(x => x.Fecha).ToList())
+            {
+                fechas.Add(item.Fecha.ToString("dd/MM/yyyy"));
+            }
+
+            exportarRecaudosDto.Estaciones = estaciones;
+            exportarRecaudosDto.Fechas = fechas;
+            return exportarRecaudosDto;
         }
 
         public bool InsercionRecaudos()

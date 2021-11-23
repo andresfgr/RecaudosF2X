@@ -7,11 +7,13 @@ import { ListarRecaudosComponent } from './components/listar-recaudos/listar-rec
 
 import { HttpClientModule } from '@angular/common/http';
 import { AgGridModule } from 'ag-grid-angular';
+import { ExportarRecaudosComponent } from './components/exportar-recaudos/exportar-recaudos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ListarRecaudosComponent
+    ListarRecaudosComponent,
+    ExportarRecaudosComponent
   ],
   imports: [
     BrowserModule,

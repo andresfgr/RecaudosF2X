@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace VehiculosF2X.Dominio.Dto
+﻿namespace VehiculosF2X.Dominio.Dto
 {
     public class RecaudosDto
     {

@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class RecaudosService {
   urlRecaudos = 'http://localhost:24353/api/RecaudoVehiculos';
-  urlExportExcelRecaudos = 'http://localhost:24353/api/RecaudoVehiculos/ExportExcel';
+  urlExportRecaudos = 'http://localhost:24353/api/RecaudoVehiculos/ExportarRecaudos';
   
   constructor(private http: HttpClient) { }
 
@@ -15,7 +15,7 @@ export class RecaudosService {
     return this.http.get(this.urlRecaudos);
   }
 
-  exportExcelRecaudos(): Observable<any> {
-    return this.http.post(this.urlExportExcelRecaudos, '');
+  exportRecaudos(): Observable<any> {
+    return this.http.post(this.urlExportRecaudos, '');
   }
 }

@@ -1,8 +1,8 @@
-import { Recaudos } from './../../models/recaudos';
-import { RecaudosService } from './../../services/recaudos.service';
 import { Component, OnInit } from '@angular/core';
 import { ColDef } from 'ag-grid-community';
-// import rxjs/Rx;
+
+import { Recaudos } from './../../models/recaudos';
+import { RecaudosService } from './../../services/recaudos.service';
 
 @Component({
   selector: 'app-listar-recaudos',
@@ -41,20 +41,8 @@ export class ListarRecaudosComponent implements OnInit {
     });
   }
 
-  exportarExcelRecaudos() {
-    this._recaudoService.exportExcelRecaudos().subscribe(data => {
-      console.log(data);
-      
-      this.downloadFile(data);
-    }, errror => {
-      console.log(errror);
-    });
-    
-  }
 
-  downloadFile(data: any) {
-    const blob = new Blob([data], { type: 'application/octet-stream' });
-    const url= window.URL.createObjectURL(blob);
-    window.open(url);
+  exportarRecaudos() {
+    document.location.href ='ExportarRecaudos';
   }
 }

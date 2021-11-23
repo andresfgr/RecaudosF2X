@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+48fmXnR5+KJWXKn3mXAYvGVVJorr1fxfZpSR6qsy1syOev0xlM2RNuDFW3OsRWQRjI08liyGDKWCOKgvNuV1A==",
+  "dgSpecHash": "W8VC/Z2rNw6mCGBLvDWF7bq8lf/PHcokynilnRYUc+YLuMUWEbo6nD8mZfNq/VIxr0+NORnC1qUkV6CAvC4Xjw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ANDRES\\Downloads\\VehiculosF2X.WebApi\\VehiculosF2X.Dominio\\RecaudoVehiculosF2X.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\ANDRES\\Downloads\\RecaudosF2X\\RecaudosF2X\\VehiculosF2X.WebApi\\VehiculosF2X.Dominio\\RecaudoVehiculosF2X.Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

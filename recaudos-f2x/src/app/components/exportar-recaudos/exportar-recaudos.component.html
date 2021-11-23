@@ -1,0 +1,50 @@
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card" style="border-bottom: none;">
+            <div class="card-body text-center">
+                <span class="float-start" style="font-size: 1.5rem;">Reporte de recaudos tabulados</span>
+                <table class="table table-striped mt-4"> 
+                    <thead>
+                      <tr>
+                        <th scope="col">Fechas</th>
+                        <th *ngFor='let estacion of estaciones' scope="col">{{estacion}}</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor='let fecha of fechas'>
+                          <td>{{fecha}}</td>
+                          <ng-container *ngFor='let recaudo of recaudos'>
+                            <td *ngIf='fecha == recaudo.fecha'>
+                              Total Cant: {{ recaudo.cantidad }} - Total Valor: {{ recaudo.valorTabulado }}
+                            </td>
+                          </ng-container>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                      <tr>
+                        <th scope="col">Total</th>
+                        <th *ngFor='let total of totalesFoot'>
+                          Total Cant: {{ total[0] }} - Total Valor: {{ total[1] }}
+                        </th>
+                      </tr>
+                  </tfoot>
+                  </table>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12" style="padding-left: 2rem; padding-bottom: 1rem;">
+    <div class="card" style="width: 18rem;">
+      <div class="card-header">
+        Totales
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item" *ngIf='totalesCantidad > 0'>
+          Total Cant: {{ totalesCantidad }}
+        </li>
+        <li class="list-group-item" *ngIf='totalesValor > 0'>
+          Total Valor: {{ totalesValor }}
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

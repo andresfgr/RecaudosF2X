@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MwAJHUJz4FxXHtkiZEbFkvJSs74VO/xtFMJG+2+fuOwHi0yGIn1FDSfEVLeVlVTEuzfv6SG8Muvdfl1c0IGSFA==",
+  "dgSpecHash": "5fvP2oNNM+wCwCdTOGFW5AxCyCCSSaDnC8P8AwTxoqIzcmzRCtlTq9cuLHVh8vVobIYE8ijJO0+uJFKD7e0SDQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ANDRES\\Downloads\\VehiculosF2X.WebApi\\VehiculosF2X.WebApi\\RecaudoVehiculosF2X.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\ANDRES\\Downloads\\RecaudosF2X\\RecaudosF2X\\VehiculosF2X.WebApi\\VehiculosF2X.WebApi\\RecaudoVehiculosF2X.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ANDRES\\.nuget\\packages\\closedxml\\0.95.4\\closedxml.0.95.4.nupkg.sha512",
     "C:\\Users\\ANDRES\\.nuget\\packages\\documentformat.openxml\\2.7.2\\documentformat.openxml.2.7.2.nupkg.sha512",

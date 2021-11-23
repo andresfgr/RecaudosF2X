@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LzRYp7kynIojmtp5pmYIGgQ1tDy9N14jQE+u26ps1g37M1tge1/Ds3KprztJT5RyhG9WF0AvMwLcF/LhZvd82g==",
+  "dgSpecHash": "41bHXyJDHvmoTuV3xzU/McqS8vNqOiumHPR+eHqrJgCn0YQ4qe27Gu4gzeHQQEvZc17O7j7MOCo/LqpQUYG2bA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ANDRES\\Downloads\\VehiculosF2X.WebApi\\VehiculosF2X.Infraestrcutura\\RecaudoVehiculosF2X.Infraestrcutura.csproj",
+  "projectFilePath": "C:\\Users\\ANDRES\\Downloads\\RecaudosF2X\\RecaudosF2X\\VehiculosF2X.WebApi\\VehiculosF2X.Infraestrcutura\\RecaudoVehiculosF2X.Infraestrcutura.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ANDRES\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\ANDRES\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
